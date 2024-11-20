@@ -7,4 +7,4 @@ the site is targeted towards poeple who watch the vtuber suisei and exists to pr
 the website will provide all the basic information on suisei like her history, achievements and if she is hosting any community activites. 
 the site will also allow all the allow the fans to get to know each other go to events together etc.
 
-
+add more input
