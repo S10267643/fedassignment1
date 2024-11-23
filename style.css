@@ -5,20 +5,18 @@
 }
 .home-button{
     text-align: left;
-    z-index: 900;
+    
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
     position: relative;
 }
 .socials-button{
-    z-index: 900;
-    vertical-align: top;
-    color: #222;
+
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+   
     display: inline-block;
     position: relative;
 }
