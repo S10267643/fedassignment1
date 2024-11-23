@@ -20,3 +20,11 @@
     text-align: start;
     display: inline-block;
 }
+.top-of-home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
