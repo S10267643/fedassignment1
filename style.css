@@ -12,6 +12,7 @@
     position: relative;
 }
 .socials-button{
+    z-index: 900;
     vertical-align: top;
     color: #222;
     text-align: left;
