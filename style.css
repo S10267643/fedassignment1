@@ -25,12 +25,11 @@
     float: inherit;
 }
 .start-img{
-    
     height: auto;
     width: auto;
     position:relative;
 }
-title{
+#title{
     text-align:end;
     font-size: 30em;
     font-family: Mirai MEDIUM, sans-serif;
