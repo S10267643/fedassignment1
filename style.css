@@ -21,9 +21,9 @@
     display: inline-block;
 }
 .top-of-home{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position:relative;
+    top: auto;
+    right: auto;
     width: 100%;
     background-color: #fff;
     padding: 10px;
