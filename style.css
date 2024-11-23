@@ -22,15 +22,15 @@
 }
 .top-of-home{
     background-color: aqua;
-    float: inline-start;
+    float: inherit;
 }
 .start-img{
+    
     height: auto;
     width: auto;
-    position:start;
+    position:relative;
 }
-.main-head{
-    
+title{
     text-align:end;
     font-size: 30em;
     font-family: Mirai MEDIUM, sans-serif;
