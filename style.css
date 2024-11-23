@@ -25,13 +25,14 @@
     float: inherit;
 }
 .start-img{
+    display: inline-block;
     height: auto;
     width: auto;
     position:relative;
     
 }
 #title{
-    
+    display: inline-block;
     font-size: 10em;
     font-family: Mirai MEDIUM, sans-serif;
 }
