@@ -1,6 +1,9 @@
 .home-button{
-    text-align: right;
+    text-align: end;
 }
 .socials-button{
-    text-align: right;
+    text-align: end;
+}
+.logo{
+    text-align: start;
 }
