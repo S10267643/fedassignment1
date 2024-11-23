@@ -4,19 +4,15 @@
     position: relative;
 }
 .home-button{
-    text-align: left;
-    
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
     position: relative;
 }
 .socials-button{
-
-    text-align: left;
     margin-left: auto;
     margin-right: auto;
-   
+    padding: 20px;
     display: inline-block;
     position: relative;
 }
