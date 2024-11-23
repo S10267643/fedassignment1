@@ -1,9 +1,12 @@
 .home-button{
     text-align: end;
+    display: inline-block;
 }
 .socials-button{
     text-align: end;
+    display: inline-block;
 }
 .logo{
     text-align: start;
+    display: inline-block;
 }
