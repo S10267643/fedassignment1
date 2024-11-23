@@ -1,3 +1,11 @@
+
+.navigation{
+    float: right;
+    position: relative;
+}
+
+
+
 .home-button{
     text-align: end;
     display: inline-block;
