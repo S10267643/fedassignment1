@@ -28,9 +28,10 @@
     height: auto;
     width: auto;
     position:relative;
+    
 }
 #title{
-    text-align:end;
+    
     font-size: 10em;
     font-family: Mirai MEDIUM, sans-serif;
 }
