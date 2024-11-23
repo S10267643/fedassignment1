@@ -20,13 +20,17 @@
     text-align: start;
     display: inline-block;
 }
+.top-of-home{
+    background-color: aqua;
+    float: inline-start;
+}
 .start-img{
-    height: 100px;
+    height: auto;
     width: auto;
     position:start;
 }
 .main-head{
-    background-color: aqua;
+    
     text-align:end;
     font-size: 30em;
     font-family: Mirai MEDIUM, sans-serif;
