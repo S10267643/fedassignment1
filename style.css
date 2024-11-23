@@ -26,6 +26,7 @@
     position:start;
 }
 .main-head{
+    background-color: aqua;
     text-align:end;
     font-size: 30em;
     font-family: Mirai MEDIUM, sans-serif;
