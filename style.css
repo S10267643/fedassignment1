@@ -20,12 +20,11 @@
     text-align: start;
     display: inline-block;
 }
-.top-of-home{
-    position:relative;
-    
-    
+.start-img{
+    height: 100px;
+    width: auto;
+    position:start;
 }
-
 .main-head{
     text-align:end;
     font-size: 30em;
