@@ -4,12 +4,14 @@
     position: relative;
 }
 .home-button{
+    font-family: Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
     position: relative;
 }
 .socials-button{
+    font-family: Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -37,8 +39,9 @@
 }
 
 #title {
+    
     background-color: aqua;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 5rem; /* Adjust font size for readability */
     font-weight: bold;
     padding: 20px;
