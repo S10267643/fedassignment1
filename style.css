@@ -22,28 +22,28 @@
 }
 .top-of-home {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
     height: 100vh; /* Make the section fit the full viewport height */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Add some padding for breathing space */
+    padding: 20px; /* Add padding for spacing */
     box-sizing: border-box; /* Include padding in the total height */
+    gap: 20px; /* Space between the image and title */
 }
 
 .start-img {
-    max-width: 90%; /* Ensure the image scales within the viewport width */
+    max-width: 40%; /* Make the image take up 40% of the container width */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space between the image and title */
 }
 
 #title {
     background-color: aqua;
-    font-family: 'Arial', sans-serif; 
-    font-size: 5rem; /* Scale font size for better fitting */
-    font-weight: bold; /* Make the text bold */
-    padding: 10px; /* Add padding around the text */
-    width: 100%; /* Make sure the title spans the available width */
-    max-width: 90%; /* Limit the width to avoid overflowing */
-    box-sizing: border-box; /* Ensure padding doesn't affect size */
+    font-family: 'Arial', sans-serif;
+    font-size: 5rem; /* Adjust font size for readability */
+    font-weight: bold;
+    padding: 20px;
+    max-width: 50%; /* Restrict the title width to 50% of the container */
+    text-align: right; /* Align text to the right */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+    word-wrap: break-word; /* Break long words if necessary */
 }
