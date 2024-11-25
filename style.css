@@ -26,22 +26,21 @@
 /* Set the container to center the content */
 .top-of-home {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Optional: if you want the text to be centered */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Vertically center the items */
+    gap: 20px; /* Optional: add space between image and text */
     height: 100vh; /* Optional: ensures the content is centered vertically */
+    text-align: center; /* Optional: center text */
   }
   
   .start-img {
-    width: 80%; /* Adjust as needed */
-    max-width: 600px; /* Ensure the image doesn't get too large */
-    height: auto; /* Maintain the aspect ratio */
+    width: 200px; /* Adjust the image width */
+    height: auto; /* Maintain aspect ratio */
   }
   
   #title {
     font-family: 'Arial', sans-serif; /* Optional: specify a font */
-    font-size: 2rem; /* Adjust the font size */
+    font-size: 2rem; /* Adjust font size */
     font-weight: bold; /* Optional: make the text bold */
-    margin-top: 20px; /* Adjust the space between the image and text */
   }
