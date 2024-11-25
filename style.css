@@ -20,29 +20,30 @@
     text-align: start;
     display: inline-block;
 }
-
-
-
 .top-of-home {
-    
     display: flex;
-    flex-direction: row; /* Align items horizontally */
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Vertically center the items */
-    gap: 20px; /* Optional: add space between image and text */
-    height: 100vh; /* Ensure the content is centered vertically */
-    text-align: center; /* Optional: center text */
-  }
-  
-  .start-img {
-    width: 600px; /* Increase the image size */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Make the section fit the full viewport height */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding for breathing space */
+    box-sizing: border-box; /* Include padding in the total height */
+}
+
+.start-img {
+    max-width: 90%; /* Ensure the image scales within the viewport width */
     height: auto; /* Maintain aspect ratio */
-  }
-  
-  #title {
+    margin-bottom: 20px; /* Space between the image and title */
+}
+
+#title {
     background-color: aqua;
-    text-align: right;
     font-family: 'Arial', sans-serif; 
-    font-size: 8rem; /* Increase the font size */
+    font-size: 5rem; /* Scale font size for better fitting */
     font-weight: bold; /* Make the text bold */
-  }
+    padding: 10px; /* Add padding around the text */
+    width: 100%; /* Make sure the title spans the available width */
+    max-width: 90%; /* Limit the width to avoid overflowing */
+    box-sizing: border-box; /* Ensure padding doesn't affect size */
+}
