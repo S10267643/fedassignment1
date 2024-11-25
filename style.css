@@ -67,3 +67,29 @@ header {
     height: 100%; /* Make the image span the full height */
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
+
+/* Welcome Section */
+.welcome-section {
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-image: url('imgs/suiwelcome'); /* Set the image as the background */
+    background-size: cover; /* Make sure the image covers the whole section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add some padding for better layout */
+    color: white; /* Ensure text is visible on the background */
+}
+
+/* Text Styles */
+.shortwebdesc {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem; /* Adjust the text size */
+    line-height: 1.8; /* Increase line spacing for readability */
+    font-weight: bold; /* Make the text stand out */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+    max-width: 800px; /* Limit text width for readability */
+}
