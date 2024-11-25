@@ -5,48 +5,57 @@ body, html {
     box-sizing: border-box;
 }
 
+/* Header Container */
+header {
+    display: flex;
+    justify-content: space-between; /* Separate logo and navigation */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px; /* Add padding for spacing */
+    border-bottom: 2px solid #ddd; /* Add a subtle border below the header */
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the page */
+    background-color: #fff; /* White background */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
 /* Logo Section */
-.logo {
-    display: inline-block; /* Allow the logo to align with navigation */
+.logo img {
+    height: 50px; /* Adjust the logo size */
+    width: auto; /* Maintain aspect ratio */
 }
 
 /* Navigation Styles */
 .navigation {
     display: flex;
-    gap: 20px; /* Add spacing between navigation links */
+    gap: 20px; /* Add spacing between the buttons */
 }
 
 .navigation a {
-    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make the buttons inline-block elements */
+    padding: 10px 15px; /* Add padding inside the buttons */
+    border: 2px solid #007BFF; /* Add a border to the buttons */
+    border-radius: 5px; /* Round the button corners */
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* White text color */
     font-family: 'Arial', sans-serif;
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem; /* Font size for the buttons */
     font-weight: bold;
-    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
 }
 
 .navigation a:hover {
-    color: #007BFF; /* Change color on hover */
-}
-
-/* Header Container */
-header {
-    display: flex;
-    justify-content: space-between; /* Space out the logo and navigation */
-    align-items: center; /* Align items vertically */
-    padding: 10px 20px; /* Add padding for spacing */
-    border-bottom: 2px solid #ddd; /* Add a subtle border below the header */
-    position: fixed; /* Fix the header at the top */
-    top: 0;
-    left: 0;
-    width: 100%; /* Make the header span the full width */
-    background-color: #fff; /* White background */
-    z-index: 1000; /* Ensure it stays on top */
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* Ensure text stays white */
 }
 
 /* Top of Home Section */
 #Top-of-Home {
     margin-top: 80px; /* Push the section below the fixed header */
-    padding: 20px; /* Optional: Add padding to the section */
+    padding: 20px; /* Add padding around the content */
     text-align: center; /* Center-align the content */
 }
 
@@ -54,5 +63,3 @@ header {
     max-width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
 }
-
-
