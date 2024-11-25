@@ -74,12 +74,13 @@ header {
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center content vertically */
     padding: 30px;
+    background-image: url('imgs/suiwelcome'); 
+    background-size: cover; /* Ensure background image covers the element */
+    background-position: center; /* Center the background image */
 }
 
 .shortwebdesc {
-    background-image: url('imgs/suiwelcome'); /* Set the background image for text */
-    background-size: cover; /* Ensure background image covers the element */
-    background-position: center; /* Center the background image */
+   
     color: black; 
     text-align: center;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
