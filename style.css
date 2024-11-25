@@ -52,6 +52,8 @@ header {
     color: #000; /* Keep text black */
 }
 
+
+
 /* Top-of-Home Section */
 #Top-of-Home {
     height: 100vh; /* Make the section fill the viewport */
@@ -76,16 +78,17 @@ header {
     padding: 30px;
 }
 
-/* Suiwelcome Image */
-.suiwelcome-img {
-    position: relative; /* Allow positioning text on top of the image */
-    width: 100%; /* Make the image container full width */
+/* Suiwelcome Image Container */
+.suiwelcome-img-container {
+    position: relative; /* Allow positioning of text over image */
+    width: 100%; /* Make the container full width */
     height: auto; /* Ensure it scales properly */
 }
 
-.suiwelcome-img img {
+/* Suiwelcome Image */
+.suiwelcome-img {
     width: 100%; /* Make the image span the full width */
-    height: auto; /* Ensure the image maintains its aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 /* Text on top of the Suiwelcome Image */
@@ -94,7 +97,7 @@ header {
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Perfect centering */
-    color: black; 
+    color: rgb(0, 0, 0); 
     text-align: center;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
     font-family: 'Mirai MEDIUM', sans-serif; /* Set font */
