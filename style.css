@@ -68,43 +68,32 @@ header {
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
 
+/* Welcome Section */
 .welcome-section {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
     height: 100vh; /* Full viewport height */
-    width: 100%; /* Full page width */
-    padding: 20px;
+    width: 100%; /* Full width of the page */
+    padding: 20px; /* Add padding to prevent edge clipping */
+    background-color: #f0f0f0; /* Optional: Background color for the rest of the section */
 }
 
-/* Text Overlay Container */
-.text-overlay-container {
-    position: relative; /* Enable absolute positioning for text */
-    width: 100%; /* Ensure the container takes full width */
-    max-width: 800px; /* Optional: Limit the width for readability */
-}
-
-/* Background Image */
-.background-img {
-    width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image behaves like a block element */
-}
-
-/* Text on Top of Image */
+/* Short Web Description */
 .shortwebdesc {
-    position: absolute; /* Position the text over the image */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Correct centering */
-    color: white; /* Make the text visible */
-    text-align: center; /* Center-align text */
+    background-image: url('imgs/suiwelcome'); /* Use the image as the background */
+    background-size: cover; /* Ensure the background covers the element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    color: white; /* Make text visible */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add inner spacing */
     font-family: 'Arial', sans-serif;
-    font-size: 1.5rem; /* Adjust font size */
+    font-size: 1.5rem; /* Adjust the font size */
     line-height: 1.8; /* Improve text spacing */
     font-weight: bold; /* Make the text stand out */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for visibility */
-    padding: 20px; /* Add spacing around text */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background for better readability */
-    border-radius: 10px; /* Optional: Rounded corners for the text block */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better contrast */
+    max-width: 800px; /* Limit the width for readability */
+    border-radius: 10px; /* Round the corners for a cleaner look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
 }
