@@ -69,18 +69,11 @@ header {
 }
 
 /* Welcome Section */
-.welcome-section {
-background-image: url('imgs/suiwelcome');
-    background-position: 0 -10%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 3vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    padding-top: 2vw;
-}
+
+
 /* Short Web Description */
 .shortwebdesc {
+    background-image: url('imgs/suiwelcome');
     color: #333;
     text-align: center;
     text-shadow: 0 0 4px #fff;
