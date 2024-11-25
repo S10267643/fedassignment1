@@ -25,12 +25,14 @@ header {
 .logo img {
     height: 50px; /* Adjust the logo size */
     width: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space between logo and buttons */
 }
 
 /* Navigation Styles */
 .navigation {
     display: flex;
     gap: 20px; /* Space between navigation links */
+    margin-left: -10px; /* Shift the navigation slightly to the left */
 }
 
 .navigation a {
@@ -66,4 +68,3 @@ header {
     height: 100%; /* Make the image span the full height */
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
-
