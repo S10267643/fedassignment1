@@ -35,13 +35,13 @@
   }
   
   .start-img {
-    width: 400px; /* Increase the image size */
+    width: 700px; /* Increase the image size */
     height: auto; /* Maintain aspect ratio */
   }
   
   #title {
     text-align: right;
     font-family: 'Arial', sans-serif; 
-    font-size: 4rem; /* Increase the font size */
+    font-size: 10rem; /* Increase the font size */
     font-weight: bold; /* Make the text bold */
   }
