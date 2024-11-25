@@ -52,7 +52,7 @@ header {
     color: #000; /* Keep text black */
 }
 
-/* Top of Home Section */
+/* Top-of-Home Section */
 #Top-of-Home {
     height: 100vh; /* Make the section fill the viewport */
     display: flex;
@@ -68,18 +68,25 @@ header {
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
 
-/* Welcome Section */
+/* Short Web Description Section */
+.shortwebdesc-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 30px;
+}
 
-
-/* Short Web Description */
 .shortwebdesc {
-    background-image: url('imgs/suiwelcome');
-    color: #333;
+    background-image: url('imgs/suiwelcome'); /* Set the background image for text */
+    background-size: cover; /* Ensure background image covers the element */
+    background-position: center; /* Center the background image */
+    color: white; /* White text for better contrast */
     text-align: center;
-    text-shadow: 0 0 4px #fff;
-    margin: auto auto 0;
-    padding: 1vw 15vw 8vw;
-    font-family: Mirai MEDIUM, sans-serif;
-    font-size: 1.5vw;
-    line-height: 2.25vw;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+    font-family: 'Mirai MEDIUM', sans-serif; /* Specify your desired font */
+    font-size: 1.5vw; /* Use viewport width for responsive text size */
+    line-height: 2.25vw; /* Line height based on font size */
+    padding: 20px; /* Add padding to space the text inside */
+    width: 80%; /* Limit width to prevent it from stretching too wide */
+    border-radius: 10px; /* Optional: add rounded corners */
 }
