@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between; /* Separate logo and navigation */
     align-items: center; /* Align items vertically */
-    padding: 10px 20px; /* Add spacing inside the header */
+    
     border-bottom: 1px solid #ddd; /* Subtle border for separation */
     position: fixed; /* Fix the header at the top */
     top: 0;
