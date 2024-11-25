@@ -23,8 +23,8 @@
 
 
 
-/* Set the container to center the content */
 .top-of-home {
+    background-color: aqua;
     display: flex;
     flex-direction: row; /* Align items horizontally */
     justify-content: center; /* Center the items horizontally */
@@ -40,7 +40,8 @@
   }
   
   #title {
-    font-family: 'Arial', sans-serif; /* Optional: specify a font */
+    text-align: right;
+    font-family: 'Arial', sans-serif; 
     font-size: 4rem; /* Increase the font size */
     font-weight: bold; /* Make the text bold */
   }
