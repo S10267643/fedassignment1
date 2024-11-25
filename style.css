@@ -29,19 +29,19 @@
     flex-direction: row; /* Align items horizontally */
     justify-content: center; /* Center the items horizontally */
     align-items: center; /* Vertically center the items */
-    gap: 30px; /* Optional: add space between image and text */
+    gap: 20px; /* Optional: add space between image and text */
     height: 100vh; /* Ensure the content is centered vertically */
     text-align: center; /* Optional: center text */
   }
   
   .start-img {
-    width: 700px; /* Increase the image size */
+    width: 600px; /* Increase the image size */
     height: auto; /* Maintain aspect ratio */
   }
   
   #title {
     text-align: right;
     font-family: 'Arial', sans-serif; 
-    font-size: 10rem; /* Increase the font size */
+    font-size: 8rem; /* Increase the font size */
     font-weight: bold; /* Make the text bold */
   }
