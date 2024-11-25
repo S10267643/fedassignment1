@@ -32,7 +32,7 @@ header {
 .navigation {
     display: flex;
     gap: 20px; /* Space between navigation links */
-    margin-left: -10px; /* Shift the navigation slightly to the left */
+    margin-left: -20px; /* Shift the navigation slightly to the left */
 }
 
 .navigation a {
@@ -40,7 +40,6 @@ header {
     padding: 5px 10px; /* Add space inside buttons */
     font-family: 'Arial', sans-serif;
     font-size: 1rem; /* Set font size for readability */
-    font-weight: bold; /* Make the text bold */
     color: #000; /* Black text for the buttons */
     text-decoration: none; /* Remove underline */
     border: 1px solid #000; /* Thin black border */
