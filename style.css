@@ -74,20 +74,33 @@ header {
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center content vertically */
     padding: 30px;
-    background-image: url('imgs/suiwelcome'); 
-    background-size: cover; /* Ensure background image covers the element */
-    background-position: center; /* Center the background image */
 }
 
+/* Suiwelcome Image */
+.suiwelcome-img {
+    position: relative; /* Allow positioning text on top of the image */
+    width: 100%; /* Make the image container full width */
+    height: auto; /* Ensure it scales properly */
+}
+
+.suiwelcome-img img {
+    width: 100%; /* Make the image span the full width */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+/* Text on top of the Suiwelcome Image */
 .shortwebdesc {
-   
+    position: absolute; /* Position text over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
     color: black; 
     text-align: center;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
-    font-family: 'Mirai MEDIUM', sans-serif; /* Specify your desired font */
-    font-size: 1.5vw; /* Use viewport width for responsive text size */
-    line-height: 2.25vw; /* Line height based on font size */
-    padding: 20px; /* Add padding to space the text inside */
-    width: 80%; /* Limit width to prevent it from stretching too wide */
-    border-radius: 10px; /* Optional: add rounded corners */
+    font-family: 'Mirai MEDIUM', sans-serif; /* Set font */
+    font-size: 1.5vw; /* Make the text size responsive */
+    line-height: 2.25vw; /* Set line height */
+    padding: 20px; /* Add padding around the text */
+    width: 80%; /* Limit the text block width */
+    border-radius: 10px; /* Optional: rounded corners for text block */
 }
