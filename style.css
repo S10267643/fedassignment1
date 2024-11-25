@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 
 /* Header Container */
@@ -10,14 +11,14 @@ header {
     display: flex;
     justify-content: space-between; /* Separate logo and navigation */
     align-items: center; /* Align items vertically */
-    padding: 10px 20px; /* Add padding for spacing */
-    border-bottom: 2px solid #ddd; /* Add a subtle border below the header */
-    position: fixed; /* Keep the header fixed at the top */
+    padding: 10px 20px; /* Add spacing inside the header */
+    border-bottom: 1px solid #ddd; /* Subtle border for separation */
+    position: fixed; /* Fix the header at the top */
     top: 0;
     left: 0;
     width: 100%; /* Full width of the page */
     background-color: #fff; /* White background */
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 /* Logo Section */
@@ -29,37 +30,40 @@ header {
 /* Navigation Styles */
 .navigation {
     display: flex;
-    gap: 20px; /* Add spacing between the buttons */
+    gap: 20px; /* Space between navigation links */
 }
 
 .navigation a {
-    display: inline-block; /* Make the buttons inline-block elements */
-    padding: 10px 15px; /* Add padding inside the buttons */
-    border: 2px solid #007BFF; /* Add a border to the buttons */
-    border-radius: 5px; /* Round the button corners */
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* White text color */
+    display: inline-block;
+    padding: 5px 10px; /* Add space inside buttons */
     font-family: 'Arial', sans-serif;
-    font-size: 1rem; /* Font size for the buttons */
-    font-weight: bold;
+    font-size: 1rem; /* Set font size for readability */
+    font-weight: bold; /* Make the text bold */
+    color: #000; /* Black text for the buttons */
     text-decoration: none; /* Remove underline */
-    text-align: center; /* Center the text */
-    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 .navigation a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    color: #fff; /* Ensure text stays white */
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #000; /* Keep text black */
 }
 
 /* Top of Home Section */
 #Top-of-Home {
-    margin-top: 80px; /* Push the section below the fixed header */
-    padding: 20px; /* Add padding around the content */
-    text-align: center; /* Center-align the content */
+    height: 100vh; /* Make the section fill the viewport */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    overflow: hidden; /* Prevent scrollbars */
+    margin-top: 80px; /* Adjust for the fixed header height */
 }
 
 #Top-of-Home img {
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Make the image span the full width */
+    height: 100%; /* Make the image span the full height */
+    object-fit: cover; /* Ensure the image covers the section without distortion */
 }
+
