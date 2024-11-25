@@ -37,8 +37,5 @@
     gap: 20px; /* Space between the image and title */
 }
 
-.start-img {
-    max-width: 40%; /* Make the image take up 40% of the container width */
-    height: auto; /* Maintain aspect ratio */
-}
+
 
