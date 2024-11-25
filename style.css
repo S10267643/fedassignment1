@@ -70,26 +70,30 @@ header {
 
 /* Welcome Section */
 .welcome-section {
-    height: 100vh; /* Full viewport height */
-    width: 100%; /* Full viewport width */
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    background-image: url('imgs/suiwelcome'); /* Set the image as the background */
-    background-size: cover; /* Make sure the image covers the whole section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background repetition */
-    text-align: center; /* Center-align text */
-    padding: 20px; /* Add some padding for better layout */
-    color: white; /* Ensure text is visible on the background */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width of the page */
+    padding: 20px; /* Add padding to prevent edge clipping */
+    background-color: #f0f0f0; /* Optional: Background color for the rest of the section */
 }
 
-/* Text Styles */
+/* Short Web Description */
 .shortwebdesc {
+    background-image: url('imgs/suiwelcome'); /* Use the image as the background */
+    background-size: cover; /* Ensure the background covers the element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    color: white; /* Make text visible */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add inner spacing */
     font-family: 'Arial', sans-serif;
-    font-size: 1.5rem; /* Adjust the text size */
-    line-height: 1.8; /* Increase line spacing for readability */
+    font-size: 1.5rem; /* Adjust the font size */
+    line-height: 1.8; /* Improve text spacing */
     font-weight: bold; /* Make the text stand out */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
-    max-width: 800px; /* Limit text width for readability */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better contrast */
+    max-width: 800px; /* Limit the width for readability */
+    border-radius: 10px; /* Round the corners for a cleaner look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
 }
