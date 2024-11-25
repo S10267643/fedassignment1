@@ -80,7 +80,7 @@ header {
     background-image: url('imgs/suiwelcome'); /* Set the background image for text */
     background-size: cover; /* Ensure background image covers the element */
     background-position: center; /* Center the background image */
-    color: white; /* White text for better contrast */
+    color: black; 
     text-align: center;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
     font-family: 'Mirai MEDIUM', sans-serif; /* Specify your desired font */
