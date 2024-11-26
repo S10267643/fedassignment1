@@ -76,6 +76,8 @@ header {
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center content vertically */
     padding: 30px;
+    font-size: 1.5vw;
+    line-height: 2.25vw;
 }
 
 /* Suiwelcome Image Container */
