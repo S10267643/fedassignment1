@@ -112,44 +112,36 @@ header {
 
 
 
-/* Styling for the sui-intro Section */
-.sui-intro {
-    
-    
-    flex-direction: row; /* Ensure elements align horizontally */
-    justify-content: center; /* Center all elements */
-    align-items: center; /* Vertically align items */
-    gap: 20px; /* Add space between items */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    
-}
+
 
 /* Styling for p1 and p2 */
 .p1 {
-    display: flex;
-    font-size: 2rem; /* Adjust font size */
-    color: #333; /* Set text color */
-    font-family: 'Arial', sans-serif; /* Use desired font */
+    display: inline-block;
+    padding: 5px 10px; /* Add space inside buttons */
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* Set font size for readability */
+    color: #000; /* Black text for the buttons */
+    text-decoration: none; /* Remove underline */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
     text-align: left; /* Center-align text */
 }
 
 .p2 {
-    display: flex;
-    font-size: 2rem; /* Adjust font size */
-    color: #333; /* Set text color */
-    font-family: 'Arial', sans-serif; /* Use desired font */
+    display: inline-block;
+    padding: 5px 10px; /* Add space inside buttons */
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* Set font size for readability */
+    color: #000; /* Black text for the buttons */
+    text-decoration: none; /* Remove underline */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
-    text-align: right; /* Center-align text */
+    text-align: left; /* Center-align text */
 }
 
 /* Styling for the image */
 .sui-intro-img {
-    display: flex;
+   
     width: 200px; /* Set the image width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image displays correctly */
