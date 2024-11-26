@@ -114,6 +114,8 @@ header {
 
 /* Container for horizontal alignment */
 .sui-intro-container {
+    background-color: #3fd8fe; /* Blue background color */
+    padding: 10px; /* Add padding for space inside the background */
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Align items in a horizontal row */
     justify-content: space-between; /* Distribute space evenly */
@@ -134,8 +136,7 @@ header {
     margin: 0; /* Remove default margins */
     line-height: 1.5; /* Adjust line spacing */
     flex: 1; /* Equal space for p1 and p2 */
-    background-color: #3fd8fe; /* Blue background color */
-    padding: 10px; /* Add padding for space inside the background */
+   
 }
 
 /* Styling for the image */
