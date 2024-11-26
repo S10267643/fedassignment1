@@ -80,6 +80,7 @@ header {
 
 /* Suiwelcome Image Container */
 .suiwelcome-img-container {
+    
     position: relative; /* Allow positioning of text over image */
     width: 100%; /* Make the container full width */
     height: auto; /* Ensure it scales properly */
@@ -112,7 +113,8 @@ header {
 
 
 
-.sui-intro{
+.sui-intro-container{
+    justify-content: space-between;
     align-items: center;
 }
 
