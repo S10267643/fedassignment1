@@ -119,8 +119,9 @@ header {
 /* Styling for the sui-intro Section */
 .sui-intro {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Spread items horizontally with space in between */
+    justify-content: center; /* Center items horizontally */
     align-items: center; /* Align items vertically */
+    gap: 20px; /* Add space between items */
     height: 100vh; /* Full viewport height */
     margin: 0;
     padding: 0;
@@ -132,15 +133,15 @@ header {
     font-size: 2rem; /* Adjust font size */
     color: #333; /* Set text color */
     font-family: 'Arial', sans-serif; /* Choose desired font */
-    margin: 0 20px; /* Add horizontal spacing */
-    padding: 0;
-    flex: 1; /* Ensure the text takes up equal space */
+    margin: 0; /* Remove default margins */
+    flex: 1; /* Let the text take up equal space */
 }
 
 /* Styling for the image */
 .sui-intro-img {
-    width: 30%; /* Adjust the image width */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 20px; /* Add horizontal spacing */
+    width: auto; /* Automatically scale width */
+    height: 50%; /* Set a height relative to viewport */
+    max-height: 300px; /* Optional: Limit max height */
     flex: 0 0 auto; /* Prevent the image from resizing unevenly */
 }
+
