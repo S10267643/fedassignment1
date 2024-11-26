@@ -114,6 +114,7 @@ header {
 
 /* Styling for the sui-intro Section */
 .sui-intro {
+    display: inline-block;
     display: flex; /* Activate Flexbox for horizontal layout */
     flex-direction: row; /* Ensure elements align horizontally */
     justify-content: center; /* Center all elements */
