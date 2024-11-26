@@ -112,7 +112,9 @@ header {
 
 
 
-
+.sui-intro{
+    align-items: center;
+}
 
 /* Styling for p1 and p2 */
 .p1 {
@@ -126,7 +128,6 @@ header {
     padding: 0; /* Remove default padding */
     text-align: left; /* Center-align text */
 }
-
 .p2 {
     display: inline-block;
     padding: 5px 10px; /* Add space inside buttons */
