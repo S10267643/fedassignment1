@@ -113,17 +113,14 @@ header {
 
 
 
-
-
-
 /* Styling for the sui-intro Section */
 .sui-intro {
     display: flex; /* Flexbox for horizontal layout */
-    justify-content: center; /* Center items horizontally */
+    justify-content: space-between; /* Space out items horizontally */
     align-items: center; /* Align items vertically */
     gap: 20px; /* Add space between items */
     height: 100vh; /* Full viewport height */
-    text-align: center; /* Center-align text */
+    text-align: center; /* Center-align text inside items */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
@@ -135,16 +132,16 @@ header {
     font-family: 'Arial', sans-serif; /* Choose desired font */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
-    flex: 1; /* Allow equal space for headings */
-    text-align: center; /* Center text in headings */
+    flex: 1; /* Ensure equal space for headings */
+    text-align: center; /* Center-align the text */
 }
 
 /* Styling for the image */
 .sui-intro-img {
     width: auto; /* Maintain original width */
-    max-width: 200px; /* Limit maximum width */
+    max-width: 200px; /* Limit the image width */
     height: auto; /* Maintain aspect ratio */
-    flex: 0 0 auto; /* Prevent resizing of image */
+    flex: 0 0 auto; /* Prevent the image from resizing disproportionately */
     display: block; /* Ensure the image displays correctly */
 }
 
