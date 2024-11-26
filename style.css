@@ -112,43 +112,38 @@ header {
 
 
 
-
-.sui-intro-container{
-    justify-content: space-between;
-    align-items: center;
+/* Container for horizontal alignment */
+.sui-intro-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items in a horizontal row */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add space between the elements */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center-align text inside headings */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
 /* Styling for p1 and p2 */
-.p1 {
-    display: inline-block;
-    padding: 5px 10px; /* Add space inside buttons */
-    font-family: 'Arial', sans-serif;
-    font-size: 2rem; /* Set font size for readability */
-    color: #000; /* Black text for the buttons */
-    text-decoration: none; /* Remove underline */
+.p1, .p2 {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    font-size: 2rem; /* Adjust font size */
+    color: #000; /* Set text color */
+    text-align: center; /* Center text within the elements */
     margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    text-align: left; /* Center-align text */
-}
-.p2 {
-    display: inline-block;
-    padding: 5px 10px; /* Add space inside buttons */
-    font-family: 'Arial', sans-serif;
-    font-size: 2rem; /* Set font size for readability */
-    color: #000; /* Black text for the buttons */
-    text-decoration: none; /* Remove underline */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    text-align: left; /* Center-align text */
+    line-height: 1.5; /* Adjust line spacing */
+    flex: 1; /* Equal space for p1 and p2 */
 }
 
 /* Styling for the image */
 .sui-intro-img {
-   
-    width: 200px; /* Set the image width */
+    width: 200px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
+    flex: 0 0 auto; /* Prevent the image from resizing */
     display: block; /* Ensure the image displays correctly */
 }
+
 
 
 
