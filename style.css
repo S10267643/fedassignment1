@@ -135,7 +135,7 @@ header {
     text-align: left; /* Center text within the elements */
     margin: 0; /* Remove default margins */
     line-height: 1.5; /* Adjust line spacing */
-    flex: 1; /* Equal space for p1 and p2 */
+    
    
 }
 
