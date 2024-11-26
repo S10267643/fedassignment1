@@ -122,21 +122,31 @@ header {
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    text-align: center; /* Center-align text inside headings */
+    
 }
 
 /* Styling for p1 and p2 */
-.p1, .p2 {
+.p1 {
     font-size: 2rem; /* Adjust font size */
     color: #333; /* Set text color */
     font-family: 'Arial', sans-serif; /* Use desired font */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
-    text-align: center; /* Center-align text */
+    text-align: left; /* Center-align text */
+}
+
+.p2 {
+    font-size: 2rem; /* Adjust font size */
+    color: #333; /* Set text color */
+    font-family: 'Arial', sans-serif; /* Use desired font */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    text-align: right; /* Center-align text */
 }
 
 /* Styling for the image */
 .sui-intro-img {
+    display: flex;
     width: 200px; /* Set the image width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image displays correctly */
