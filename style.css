@@ -114,8 +114,8 @@ header {
 
 /* Styling for the sui-intro Section */
 .sui-intro {
-    display: inline-block;
-    display: flex; /* Activate Flexbox for horizontal layout */
+    
+    
     flex-direction: row; /* Ensure elements align horizontally */
     justify-content: center; /* Center all elements */
     align-items: center; /* Vertically align items */
@@ -128,6 +128,7 @@ header {
 
 /* Styling for p1 and p2 */
 .p1 {
+    display: flex;
     font-size: 2rem; /* Adjust font size */
     color: #333; /* Set text color */
     font-family: 'Arial', sans-serif; /* Use desired font */
@@ -137,6 +138,7 @@ header {
 }
 
 .p2 {
+    display: flex;
     font-size: 2rem; /* Adjust font size */
     color: #333; /* Set text color */
     font-family: 'Arial', sans-serif; /* Use desired font */
