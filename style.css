@@ -130,17 +130,17 @@ header {
     font-family: 'Arial', sans-serif; /* Set font family */
     font-size: 6vw; /* Adjust font size */
     color: #000; /* Set text color */
-    text-align: center; /* Center text within the elements */
+    text-align: left; /* Center text within the elements */
     margin: 0; /* Remove default margins */
     line-height: 1.5; /* Adjust line spacing */
     flex: 1; /* Equal space for p1 and p2 */
     background-color: #3fd8fe; /* Blue background color */
-    padding: 20px; /* Add padding for space inside the background */
+    padding: 10px; /* Add padding for space inside the background */
 }
 
 /* Styling for the image */
 .sui-intro-img {
-    width: 200px; /* Set image width */
+    width: 300px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
     flex: 0 0 auto; /* Prevent the image from resizing */
     display: block; /* Ensure the image displays correctly */
