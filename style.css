@@ -121,7 +121,7 @@ header {
     justify-content: space-between; /* Distribute space evenly */
     align-items: center; /* Align items vertically */
     gap: 20px; /* Add space between the elements */
-    height: 100vh; /* Full viewport height */
+    height: 80vh; /* Full viewport height */
     text-align: center; /* Center-align text inside headings */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
@@ -141,7 +141,7 @@ header {
 
 /* Styling for the image */
 .sui-intro-img {
-    width: 300px; /* Set image width */
+    width: 400px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
     flex: 0 0 auto; /* Prevent the image from resizing */
     display: block; /* Ensure the image displays correctly */
