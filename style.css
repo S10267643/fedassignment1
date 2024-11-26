@@ -128,13 +128,13 @@ header {
 /* Styling for p1 and p2 */
 .p1, .p2 {
     font-family: 'Arial', sans-serif; /* Set font family */
-    font-size: 8vw; /* Adjust font size */
+    font-size: 6vw; /* Adjust font size */
     color: #000; /* Set text color */
     text-align: center; /* Center text within the elements */
     margin: 0; /* Remove default margins */
     line-height: 1.5; /* Adjust line spacing */
     flex: 1; /* Equal space for p1 and p2 */
-    background-color: #007BFF; /* Blue background color */
+    background-color: #3fd8fe; /* Blue background color */
     padding: 20px; /* Add padding for space inside the background */
 }
 
