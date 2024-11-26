@@ -112,37 +112,35 @@ header {
 
 
 
-
 /* Styling for the sui-intro Section */
 .sui-intro {
-    display: flex; /* Flexbox for horizontal layout */
-    justify-content: space-between; /* Space out items horizontally */
-    align-items: center; /* Align items vertically */
+    display: flex; /* Activate Flexbox for horizontal layout */
+    flex-direction: row; /* Ensure elements align horizontally */
+    justify-content: center; /* Center all elements */
+    align-items: center; /* Vertically align items */
     gap: 20px; /* Add space between items */
     height: 100vh; /* Full viewport height */
-    text-align: center; /* Center-align text inside items */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align text inside headings */
 }
 
 /* Styling for p1 and p2 */
 .p1, .p2 {
     font-size: 2rem; /* Adjust font size */
     color: #333; /* Set text color */
-    font-family: 'Arial', sans-serif; /* Choose desired font */
+    font-family: 'Arial', sans-serif; /* Use desired font */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
-    flex: 1; /* Ensure equal space for headings */
-    text-align: center; /* Center-align the text */
+    text-align: center; /* Center-align text */
 }
 
 /* Styling for the image */
 .sui-intro-img {
-    width: auto; /* Maintain original width */
-    max-width: 200px; /* Limit the image width */
+    width: 200px; /* Set the image width */
     height: auto; /* Maintain aspect ratio */
-    flex: 0 0 auto; /* Prevent the image from resizing disproportionately */
     display: block; /* Ensure the image displays correctly */
 }
+
 
 
