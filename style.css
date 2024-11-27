@@ -152,46 +152,44 @@ header {
 
 
 
-
-
 /* Container for the image and text */
 .sui-info-container {
-    display: flex; /* Use flexbox for horizontal layout */
-    flex-direction: row; /* Align items horizontally */
+    display: flex; /* Enable flexbox for horizontal layout */
     align-items: flex-start; /* Align items to the top */
-    gap: 20px; /* Add space between the image and text */
+    gap: 20px; /* Space between the image and text */
     padding: 20px; /* Add padding inside the container */
+    max-width: 1200px; /* Optional: Limit the width for better layout */
+    margin: 0 auto; /* Center the container on the page */
 }
 
 /* Styling for the image */
 .sui-info-img {
     width: 40%; /* Image takes 40% of the container width */
-    height: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow effect */
 }
 
 /* Styling for the text container */
 .sui-info {
-    width: 55%; /* Text takes 55% of the container width */
-    font-family: 'Arial', sans-serif; /* Font style */
-    font-size: 1rem; /* Text size */
-    line-height: 1.8; /* Line spacing for readability */
+    flex: 1; /* Allow the text container to fill remaining space */
+    font-family: 'Arial', sans-serif; /* Font for the text */
     color: #333; /* Text color */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove padding */
+    line-height: 1.8; /* Line spacing for readability */
 }
 
 /* Styling for the h1 */
 .sui-info h1 {
-    font-size: 2.5rem; /* Larger font size for the main heading */
-    color: #007BFF; /* Blue color for the heading */
-    margin-bottom: 10px; /* Space below the heading */
+    font-size: 2.5rem; /* Larger font for the main title */
+    color: #007BFF; /* Blue color for the title */
+    margin-bottom: 10px; /* Add space below the title */
 }
 
 /* Styling for the h2 */
 .sui-info h2 {
-    font-size: 1.2rem; /* Smaller font size for subtext */
-    color: #555; /* Slightly darker text color */
-    margin-top: 0; /* Remove top margin */
+    font-size: 1.2rem; /* Standard font size for text */
+    color: #555; /* Darker gray for subtext */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
 }
+
