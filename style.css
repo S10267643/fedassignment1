@@ -166,7 +166,7 @@ header {
 
 /* Styling for the image */
 .sui-info-img {
-    width: 200%; 
+    width: 40%; 
     height: auto; /* Maintain aspect ratio */
 }
 
