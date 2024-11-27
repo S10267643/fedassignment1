@@ -189,7 +189,7 @@ header {
 }
 
 /* Styling for the h2 */
-.sui-info h2 {
+.sui-info h3 {
     font-size: 1.1rem; /* Standard font size for text */
     color: #555; /* Slightly darker gray */
     margin: 0; /* Remove default margins */
