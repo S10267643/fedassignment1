@@ -172,7 +172,7 @@ header {
 
 /* Styling for the text container */
 .sui-info {
-    padding-top: 20px;
+    padding-top: 90px;
     flex-direction: column;
     flex: 1; /* Allow the text to fill the remaining space */
     line-height: 1.6; /* Line spacing for readability */
@@ -193,6 +193,8 @@ header {
     font-family: Mirai NORMAL, sans-serif;
     font-size: 1.20vw;
     line-height: 2vw;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 
