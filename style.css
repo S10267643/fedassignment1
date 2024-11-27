@@ -182,7 +182,7 @@ header {
 }
 
 /* Styling for the h1 */
-.sui-info h1 {
+.sui-info h1 span {
     color: #00aeef;
     margin-top: 0;
     font-family: Ubuntu, Helvetica, sans-serif;
