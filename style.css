@@ -161,6 +161,12 @@ header {
     max-width: 1200px; /* Limit the container width */
     margin: 0 auto; /* Center the container */
     background-color: #f8f9fa; /* Optional: light background color */
+    grid-column-gap: 0px;
+    grid-row-gap: 1vw;
+    grid-template:
+        "Area" 12vw
+        "Area-2"
+        "Area-3" / 1fr;
 }
 
 /* Styling for the image */
@@ -182,19 +188,21 @@ header {
 
 /* Styling for the h1 */
 .sui-info h1 {
-    font-size: 2.5rem; /* Larger font size for the main title */
-    color: #007BFF; /* Blue color for the title */
-    margin-bottom: 10px; /* Add space below the title */
-    font-weight: bold; /* Only h1 is bold */
+    color: #00aeef;
+    margin-top: 0;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 5vw;
+    line-height: 5.5vw;
 }
+
 
 /* Styling for the h2 */
 .sui-info h3 {
-    font-size: 1.1rem; /* Standard font size for text */
-    color: #555; /* Slightly darker gray */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    font-weight: normal; /* Ensure text is not bold */
+    color: #333;
+    text-align: justify;
+    font-family: Mirai NORMAL, sans-serif;
+    font-size: 1.15vw;
+    line-height: 1.75vw;
 }
 
 
