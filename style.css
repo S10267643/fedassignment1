@@ -158,7 +158,7 @@ header {
     align-items: flex-start; /* Align items to the top */
     gap: 20px; /* Space between image and text */
     padding: 20px; /* Add padding inside the container */
-    max-width: 1200px; /* Limit the container width */
+  
     margin: 0 auto; /* Center the container */
     background-color: #f8f9fa; /* Optional: light background color */
   
@@ -166,7 +166,7 @@ header {
 
 /* Styling for the image */
 .sui-info-img {
-    width: 50%; /* Image takes up 40% of the container */
+    width: 200%; /* Image takes up 40% of the container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
