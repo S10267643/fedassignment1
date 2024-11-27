@@ -161,12 +161,7 @@ header {
     max-width: 1200px; /* Limit the container width */
     margin: 0 auto; /* Center the container */
     background-color: #f8f9fa; /* Optional: light background color */
-    grid-column-gap: 0px;
-    grid-row-gap: 1vw;
-    grid-template:
-        "Area" 12vw
-        "Area-2"
-        "Area-3" / 1fr;
+  
 }
 
 /* Styling for the image */
