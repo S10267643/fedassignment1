@@ -174,22 +174,30 @@ header {
 
 /* Styling for the text */
 .sui-info {
-    width: 55%; /* Text takes 55% of the container width */
-    font-family: 'Arial', sans-serif; /* Font style */
-    font-size: 1rem; /* Adjust text size */
-    line-height: 1.8; /* Add spacing between lines */
-    color: #333; /* Text color */
+    grid-column-gap: 0px;
+    grid-row-gap: 1vw;
+    grid-template:
+        "Area" 12vw
+        "Area-2"
+        "Area-3" / 1fr;
+    
+    
 }
 
 .sui-info h1 {
-    font-size: 2.5rem; /* Larger font size for the heading */
-    color: #007BFF; /* Blue color for the heading */
-    margin-bottom: 10px; /* Space below the heading */
+    color: #00aeef;
+    margin-top: 0;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 5vw;
+    line-height: 5.5vw;
 }
 
 .sui-info h2 {
-    font-size: 1.2rem; /* Font size for subtext */
-    color: #555; /* Slightly darker text color */
-    margin-top: 0; /* Remove default top margin */
+    color: #333;
+    text-align: justify;
+    font-family: Mirai NORMAL, sans-serif;
+    font-size: 1.15vw;
+    line-height: 1.75vw;
 }
+
 
