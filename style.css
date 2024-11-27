@@ -166,7 +166,7 @@ header {
 
 /* Styling for the image */
 .sui-info-img {
-    width: 40%; /* Image takes up 40% of the container */
+    width: 50%; /* Image takes up 40% of the container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
@@ -175,9 +175,6 @@ header {
 /* Styling for the text container */
 .sui-info {
     flex: 1; /* Allow the text to fill the remaining space */
-    
-    
-    color: #333; /* Text color */
     line-height: 1.6; /* Line spacing for readability */
 }
 
