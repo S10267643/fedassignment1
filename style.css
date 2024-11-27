@@ -175,23 +175,21 @@ header {
 /* Styling for the text container */
 .sui-info {
     flex: 1; /* Allow the text to fill the remaining space */
-    font-family: 'Arial', sans-serif; /* Set the font family */
-    font-weight: normal; /* Ensure text is not bold */
+    
+    
     color: #333; /* Text color */
     line-height: 1.6; /* Line spacing for readability */
 }
 
 /* Styling for the h1 */
 .sui-info h1 span {
-    color: #00aeef;
+    color: #1eb9f1;
     margin-top: 0;
     font-family: Ubuntu, Helvetica, sans-serif;
     font-size: 5vw;
     line-height: 5.5vw;
 }
 
-
-/* Styling for the h2 */
 .sui-info h3 {
     color: #333;
     text-align: justify;
