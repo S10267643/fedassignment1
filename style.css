@@ -96,7 +96,7 @@ header {
 
 /* Text on top of the Suiwelcome Image */
 .shortwebdesc {
-    position:relative; /* Position text over the image */
+    position:fixed; /* Position text over the image */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Perfect centering */
