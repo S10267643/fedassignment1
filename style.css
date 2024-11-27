@@ -197,6 +197,9 @@ header {
     word-spacing: 5px;
 }
 .three{
+    padding-top: 90px;
+    font-family: Mirai NORMAL, sans-serif;
+    text-decoration: none;
     padding: 5px 10px; /* Add space inside buttons */
     border: 1px solid #000; /* Thin black border */
     border-radius: 5px; /* Rounded corners */
