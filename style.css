@@ -182,7 +182,7 @@ header {
 }
 
 /* Styling for the h1 */
-.sui-info h1 span {
+.one {
     color: #1eb9f1;
     margin-top: 0;
     font-family: Ubuntu, Helvetica, sans-serif;
@@ -190,7 +190,7 @@ header {
     line-height: 5.5vw;
 }
 
-.sui-info h3 {
+.two {
     color: #333;
     text-align: justify;
     font-family: Mirai NORMAL, sans-serif;
