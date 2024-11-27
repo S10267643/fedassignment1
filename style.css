@@ -166,10 +166,8 @@ header {
 
 /* Styling for the image */
 .sui-info-img {
-    width: 200%; /* Image takes up 40% of the container */
+    width: 200%; 
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
 }
 
 /* Styling for the text container */
