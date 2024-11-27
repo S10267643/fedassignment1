@@ -11,6 +11,7 @@ header {
     display: flex;
     justify-content: space-between; /* Separate logo and navigation */
     align-items: center; /* Align items vertically */
+    
     border-bottom: 1px solid #ddd; /* Subtle border for separation */
     position: fixed; /* Fix the header at the top */
     top: 0;
@@ -51,6 +52,8 @@ header {
     color: #000; /* Keep text black */
 }
 
+
+
 /* Top-of-Home Section */
 #Top-of-Home {
     height: 100vh; /* Make the section fill the viewport */
@@ -77,17 +80,21 @@ header {
     line-height: 2.25vw;
 }
 
+/* Suiwelcome Image Container */
 .suiwelcome-img-container {
+    
     position: relative; /* Allow positioning of text over image */
     width: 100%; /* Make the container full width */
     height: auto; /* Ensure it scales properly */
 }
 
+/* Suiwelcome Image */
 .suiwelcome-img {
     width: 100%; /* Make the image span the full width */
     height: auto; /* Maintain the aspect ratio */
 }
 
+/* Text on top of the Suiwelcome Image */
 .shortwebdesc {
     position: absolute; /* Position text over the image */
     top: 50%; /* Center vertically */
@@ -104,41 +111,44 @@ header {
     border-radius: 10px; /* Optional: rounded corners for text block */
 }
 
-/* Sui Info Container */
-.sui-info-container {
-    display: flex; /* Enable flexbox for horizontal layout */
-    align-items: flex-start; /* Align items to the top */
-    gap: 20px; /* Space between the image and text */
-    padding: 20px; /* Add padding inside the container */
-    max-width: 1200px; /* Optional: Limit the width for better layout */
-    margin: 0 auto; /* Center the container on the page */
+
+
+
+/* Container for horizontal alignment */
+.sui-intro-container {
+    background-color: #3fd8fe; /* Blue background color */
+    padding: 10px; /* Add padding for space inside the background */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items in a horizontal row */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add space between the elements */
+    height: 80vh; /* Full viewport height */
+    text-align: center; /* Center-align text inside headings */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
-.sui-info-img {
-    width: 40%; /* Image takes 40% of the container width */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow effect */
-}
-
-.sui-info {
-    flex: 1; /* Allow the text container to fill remaining space */
-    font-family: 'Arial', sans-serif; /* Font for the text */
-    color: #333; /* Text color */
-    line-height: 1.8; /* Line spacing for readability */
-}
-
-.sui-info h1 {
-    font-size: 2.5rem; /* Larger font for the main title */
-    color: #007BFF; /* Blue color for the title */
-    margin-bottom: 10px; /* Add space below the title */
-}
-
-.sui-info h2 {
-    font-size: 1.2rem; /* Standard font size for text */
-    color: #555; /* Darker gray for subtext */
+/* Styling for p1 and p2 */
+.p1, .p2 {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    font-size: 6vw; /* Adjust font size */
+    color: #fff;
+    text-shadow: 11px 11px #445159;
+    text-align: left; /* Center text within the elements */
     margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
+    line-height: 1.5; /* Adjust line spacing */
+    
+   
 }
+/* Styling for the image */
+.sui-intro-img {
+    width: 400px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    flex: 0 0 auto; /* Prevent the image from resizing */
+    display: block; /* Ensure the image displays correctly */
+}
+
+
 
 
