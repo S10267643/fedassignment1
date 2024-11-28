@@ -5,7 +5,6 @@ body, html {
     box-sizing: border-box;
     height: 100%;
 }
-
 /* Header Container */
 header {
     display: flex;
@@ -20,21 +19,18 @@ header {
     background-color: #fff; /* White background */
     z-index: 1000; /* Ensure it stays above other content */
 }
-
 /* Logo Section */
 .logo img {
     height: 50px; /* Adjust the logo size */
     width: auto; /* Maintain aspect ratio */
     margin-right: 15px; /* Add space between logo and buttons */
 }
-
 /* Navigation Styles */
 .navigation {
     display: flex;
     gap: 20px; /* Space between navigation links */
     margin-left: -20px; /* Shift the navigation slightly to the left */
 }
-
 .navigation a {
     display: inline-block;
     padding: 5px 10px; /* Add space inside buttons */
@@ -46,14 +42,10 @@ header {
     border-radius: 5px; /* Rounded corners */
     transition: all 0.3s ease; /* Smooth hover effect */
 }
-
 .navigation a:hover {
     background-color: #f0f0f0; /* Light gray background on hover */
     color: #000; /* Keep text black */
 }
-
-
-
 /* Top-of-Home Section */
 #Top-of-Home {
     height: 100vh; /* Make the section fill the viewport */
@@ -63,13 +55,11 @@ header {
     overflow: hidden; /* Prevent scrollbars */
     margin-top: 80px; /* Adjust for the fixed header height */
 }
-
 #Top-of-Home img {
     width: 100%; /* Make the image span the full width */
     height: 100%; /* Make the image span the full height */
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
-
 /* Short Web Description Section */
 .shortwebdesc-container {
     display: flex;
@@ -78,7 +68,6 @@ header {
     
     
 }
-
 /* Suiwelcome Image Container */
 .suiwelcome-img-container {
     
@@ -86,13 +75,11 @@ header {
     width: 100%; /* Make the container full width */
     height: auto; /* Ensure it scales properly */
 }
-
 /* Suiwelcome Image */
 .suiwelcome-img {
     width: 100%; /* Make the image span the full width */
     height: auto; /* Maintain the aspect ratio */
 }
-
 /* Text on top of the Suiwelcome Image */
 .shortwebdesc {
     position: absolute; /* Position the text over the image */
@@ -109,10 +96,6 @@ header {
     width: 80%; /* Limit the text block width */
     border-radius: 10px; /* Optional: rounded corners for text block */
 }
-
-
-
-
 /* Container for horizontal alignment */
 .sui-intro-container {
     background-color: #3fd8fe; /* Blue background color */
@@ -127,7 +110,6 @@ header {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
 }
-
 /* Styling for p1 and p2 */
 .p1, .p2 {
     font-family: 'Arial', sans-serif; /* Set font family */
@@ -147,11 +129,6 @@ header {
     flex: 0 0 auto; /* Prevent the image from resizing */
     display: block; /* Ensure the image displays correctly */
 }
-
-
-
-
-
 /* Container for horizontal alignment */
 .sui-info-container {
     display: flex; /* Horizontal layout */
@@ -161,15 +138,12 @@ header {
   
     margin: 0 auto; /* Center the container */
     background-color: #f8f9fa; /* Optional: light background color */
-  
 }
-
 /* Styling for the image */
 .sui-info-img {
     width: 40%; 
     height: auto; /* Maintain aspect ratio */
 }
-
 /* Styling for the text container */
 .sui-info {
     padding-top: 90px;
@@ -177,7 +151,6 @@ header {
     flex: 1; /* Allow the text to fill the remaining space */
     line-height: 1.6; /* Line spacing for readability */
 }
-
 /* Styling for the h1 */
 .one {
     color: #1eb9f1;
@@ -186,7 +159,6 @@ header {
     font-size: 5vw;
     line-height: 5.5vw;
 }
-
 .two {
     color: #333;
     text-align: justify;
@@ -205,8 +177,13 @@ header {
     border-radius: 5px;
     
 }
-
 .three:hover{
     background-color: #f0f0f0; /* Light gray background on hover */
     color: #000; /* Keep text black */
 }
+
+
+
+
+
+
