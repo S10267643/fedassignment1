@@ -188,7 +188,7 @@ header {
     align-items: center; /* Vertically align image and text */
     gap: 20px; /* Space between the image and text */
     padding: 20px; /* Add padding around the section */
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #1eb9f1; /* Light background for contrast */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     max-width: 1200px; /* Limit the width for a clean layout */
