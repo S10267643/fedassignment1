@@ -203,6 +203,8 @@ header {
     padding: 10px 20px;
     border: 1px solid #000;
     border-radius: 5px;
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #000; /* Keep text black */
 }
 
 
