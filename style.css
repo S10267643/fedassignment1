@@ -182,6 +182,46 @@ header {
     color: #000; /* Keep text black */
 }
 
+/* Fan Name Section Styling */
+.fan-name {
+    display: flex; /* Enable horizontal alignment */
+    align-items: center; /* Vertically align image and text */
+    gap: 20px; /* Space between the image and text */
+    padding: 20px; /* Add padding around the section */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Limit the width for a clean layout */
+    margin: 20px auto; /* Center the section on the page */
+}
+
+/* Image Styling */
+.fan-name-img {
+    width: 150px; /* Set fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for focus */
+    border: 3px solid #007BFF; /* Optional: Blue border around the image */
+}
+
+/* Name Styling */
+.name {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    font-size: 2rem; /* Increase font size for emphasis */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Dark gray color */
+    margin: 0; /* Remove default margins */
+}
+
+/* Description Styling */
+.description {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    font-size: 1rem; /* Standard readable font size */
+    line-height: 1.6; /* Improve readability with line spacing */
+    color: #555; /* Medium gray color */
+    margin: 0; /* Remove default margins */
+    text-align: justify; /* Align the text evenly */
+}
 
 
 
