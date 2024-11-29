@@ -290,7 +290,7 @@ header {
   .char-pro-img {
     display: flex;
     justify-content: flex-end;
-    width: 29%; /* Occupy 30% of the container */
+    width: 27%; /* Occupy 30% of the container */
   }
   
   .char-pro-img img {
