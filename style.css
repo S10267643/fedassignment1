@@ -244,8 +244,7 @@ header {
   .suiprofileboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns for attributes */
-    gap: 20px; /* Space between boxes */
-    width: 30%; /* Occupy 30% of the container */
+    
   }
   
   .profile-box {
