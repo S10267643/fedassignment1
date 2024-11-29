@@ -234,7 +234,7 @@ header {
     justify-content: space-between; /* Position left and right sections closer */
     align-items: center; /* Vertically align left, center, and right */
     gap: 20px; /* Space between sections */
-    height: 100vh; /* Full viewport height */
+    height: 80vh; /* Full viewport height */
     padding: 0 30px; /* Horizontal padding */
     position: relative;
   }
