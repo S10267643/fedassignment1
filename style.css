@@ -233,8 +233,7 @@ header {
     background-color: #d6d5d5;
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
-    align-items: flex-start; /* Align sections at the top */
-    height: 90vh; /* Full viewport height */
+    align-items: center; /* Align sections at the top */
     padding: 20px; /* Padding to give space from the edges */
     position: absolute;
     overflow: hidden; /* Prevent content from overflowing */
