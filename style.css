@@ -233,7 +233,7 @@ header {
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
     align-items: flex-start; /* Align sections at the top */
-    gap: 30px; /* Space between sections */
+    gap: 20px; /* Space between sections */
     height: 100vh; /* Full viewport height */
     padding: 20px; /* Padding to give space from the edges */
     position: relative;
@@ -261,7 +261,7 @@ header {
   
   .attribute {
     font-family: Ubuntu, Helvetica, sans-serif;
-    font-size: 1.5rem; /* Larger font for attributes */
+    font-size: 1.3rem; /* Larger font for attributes */
     font-weight: bold;
     color: #007bff; /* Blue for attribute names */
     margin-bottom: 10px;
