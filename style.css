@@ -230,58 +230,67 @@ header {
 
 .charprofsuisei-container {
     display: flex;
-    justify-content: space-between; /* Separate profile boxes and name section */
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-    margin: 20px;
-    padding: 10px;
-}
-
-.suiprofileboard {
+    padding: 20px;
+  }
+  
+  .suiprofileboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two boxes per row */
+    gap: 20px;
+    max-width: 600px;
+  }
+  
+  .profile-box {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping of boxes */
-    gap: 15px; /* Space between boxes */
-    width: 60%; /* Allocate space for profile boxes */
-}
-
-.profile-box {
-    width: 150px; /* Fixed width for boxes */
-    background-color: #f8f8f8; /* Light gray background */
-    border: 1px solid #ddd; /* Border around each box */
-    text-align: center;
-    
-}
-
-.attribute {
-    font-family: Ubuntu, Helvetica, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #007bff; /* Blue text for attributes */
-    margin-bottom: 8px; /* Space below attribute text */
-}
-
-.value {
-    font-family: Ubuntu, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    color: #333; /* Dark gray text for values */
-}
-
-.char-pro-name {
-    font-family: Ubuntu, Helvetica, sans-serif;
-    width: 20%; /* Allocate remaining space for the profile name */
-    text-align: center;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    background-color: #f0f8ff; /* Light blue background */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+  }
+  
+  .attribute {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff; /* Blue for attribute names */
+    margin-bottom: 5px;
+  }
+  
+  .value {
+    font-size: 1.2rem;
+    color: #333; /* Dark text for values */
+  }
+  
+  .char-pro-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px; /* Adjust overlap */
+  }
+  
+  .char-pro-img img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .char-pro-name {
+    position: absolute;
     font-size: 2.5rem;
-    color: #333; /* Dark gray text for name */
-    line-height: 1.5;
-}
-
-
-
-.char-pro-img{
-    height: 10%;
-    width: auto; 
-    
-    
-}
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Bold shadow */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centered overlap */
+  }
+  
