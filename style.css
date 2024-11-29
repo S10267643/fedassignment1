@@ -233,10 +233,9 @@ header {
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
     align-items: flex-start; /* Align sections at the top */
-    gap: 20px; /* Space between sections */
     height: 100vh; /* Full viewport height */
     padding: 20px; /* Padding to give space from the edges */
-    position: relative;
+    position: absolute;
     overflow: hidden; /* Prevent content from overflowing */
   }
   
@@ -286,7 +285,7 @@ header {
     
     text-align:center;
     z-index: 1; /* Ensure it stays above other sections but below the content */
-    width: 100%;
+    width: 10%;
   }
   
   /* Right Section: Character Image */
