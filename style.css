@@ -209,16 +209,16 @@ header {
     font-family: 'Arial', sans-serif; /* Set font family */
     font-size: 2rem; /* Increase font size for emphasis */
     font-weight: bold; /* Make the text bold */
-    color: #333; /* Dark gray color */
+    color: #fffefe; /* Dark gray color */
     margin: 0; /* Remove default margins */
 }
 
 /* Description Styling */
 .description {
     font-family: 'Arial', sans-serif; /* Set font family */
-    font-size: 1rem; /* Standard readable font size */
+    font-size: 1.5rem; /* Standard readable font size */
     line-height: 1.6; /* Improve readability with line spacing */
-    color: #555; /* Medium gray color */
+    color: #ffffff; /* Medium gray color */
     margin: 0; /* Remove default margins */
     text-align: justify; /* Align the text evenly */
 }
