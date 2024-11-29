@@ -225,7 +225,7 @@ header {
     align-items: center; /* Align sections at the top */
     padding: 20px; /* Padding to give space from the edges */
     position: absolute;
-    overflow: hidden; /* Prevent content from overflowing */
+    
   }
   
   /* Left Section: Profile Board */
