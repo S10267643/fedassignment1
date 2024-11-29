@@ -228,33 +228,32 @@ header {
 
 
 
+/* Container */
 .charprofsuisei-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 20px;
+    gap: 30px;
   }
   
+  /* Left Section: Profile Board */
   .suiprofileboard {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two boxes per row */
-    gap: 20px;
-    max-width: 600px;
+    grid-template-columns: 1fr; /* Single column */
+    gap: 15px;
+    max-width: 300px;
   }
   
   .profile-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
+    align-items: flex-start; /* Align text to the left */
+    padding: 10px;
     background-color: #f0f8ff; /* Light blue background */
     border: 2px solid #007bff; /* Blue border */
     border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .attribute {
@@ -266,31 +265,28 @@ header {
   
   .value {
     font-size: 1.2rem;
-    color: #333; /* Dark text for values */
+    color: #333; /* Darker text for values */
   }
   
-  .char-pro-img {
-    position: relative;
+  /* Right Section: Name and Image */
+  .charpro-img-name {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: -30px; /* Adjust overlap */
-  }
-  
-  .char-pro-img img {
-    max-width: 300px;
-    height: auto;
+    text-align: center;
+    gap: 15px;
   }
   
   .char-pro-name {
-    position: absolute;
     font-size: 2.5rem;
     font-weight: bold;
-    text-align: center;
     color: #333;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Bold shadow */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centered overlap */
+  }
+  
+  .char-pro-img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Optional rounded corners for the image */
   }
   
