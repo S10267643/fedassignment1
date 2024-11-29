@@ -245,12 +245,10 @@ header {
 
 .profile-box {
     width: 150px; /* Fixed width for boxes */
-    padding: 15px;
     background-color: #f8f8f8; /* Light gray background */
     border: 1px solid #ddd; /* Border around each box */
-    border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
 }
 
 .attribute {
@@ -283,7 +281,8 @@ header {
 }
 
 .char-pro-img{
-    width: 20%; /* Allocate remaining space for the profile image */
+    height: 50%;
+    width: auto; 
     margin-bottom: 10px; /* Space below image */
     
 }
