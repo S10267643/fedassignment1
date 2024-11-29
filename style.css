@@ -285,7 +285,5 @@ header {
 .char-pro-img{
     width: 20%; /* Allocate remaining space for the profile image */
     margin-bottom: 10px; /* Space below image */
-    border-radius: 50%; /* Make the image circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for focus */
-    border: 3px solid #007BFF; /* Optional: Blue border around the image */
+    
 }
