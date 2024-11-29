@@ -240,9 +240,9 @@ header {
   /* Left Section: Profile Board */
   .suiprofileboard {
     display: grid;
-    grid-template-columns: 1fr; /* Single column */
-    gap: 15px;
-    max-width: 300px;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 15px; /* Spacing between boxes */
+    max-width: 60%;
   }
   
   .profile-box {
@@ -289,4 +289,5 @@ header {
     height: auto;
     border-radius: 10px; /* Optional rounded corners for the image */
   }
+  
   
