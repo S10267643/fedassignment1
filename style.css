@@ -191,8 +191,8 @@ header {
     background-color: #1eb9f1; /* Light background for contrast */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 1200px; /* Limit the width for a clean layout */
-    margin: 20px auto; /* Center the section on the page */
+    max-width: 1400px; /* Limit the width for a clean layout */
+    margin: 10px auto; /* Center the section on the page */
 }
 
 /* Image Styling */
