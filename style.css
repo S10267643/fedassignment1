@@ -231,9 +231,9 @@ header {
 /* Main Container */
 .charprofsuisei-container {
     display: flex;
-    justify-content: center; /* Centers the left and right portions */
-    align-items: flex-start;
-    gap: 20px; /* Reduces the gap between left and right sections */
+    justify-content: space-between; /* Push left and right closer horizontally */
+    align-items: center; /* Vertically align both sections */
+    gap: 30px; /* Moderate gap between sections */
     padding: 20px;
   }
   
@@ -241,29 +241,30 @@ header {
   .suiprofileboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 15px; /* Spacing between boxes */
+    gap: 20px; /* Space between boxes */
   }
   
   .profile-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align text to the left */
-    padding: 10px;
+    padding: 15px;
     background-color: #f0f8ff; /* Light blue background */
     border: 2px solid #007bff; /* Blue border */
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
   
   .attribute {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Larger font for attributes */
     font-weight: bold;
     color: #007bff; /* Blue for attribute names */
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .value {
-    font-size: 1.2rem;
+    font-size: 1.8rem; /* Larger font for values */
+    font-weight: 600;
     color: #333; /* Darker text for values */
   }
   
@@ -271,24 +272,25 @@ header {
   .charpro-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Centers the name vertically relative to the image */
+    align-items: center; /* Center the name and image */
     text-align: center;
-    gap: 15px; /* Space between name and image */
+    gap: 20px; /* Space between name and image */
   }
   
   .char-pro-name {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Larger font size */
     font-weight: bold;
     color: #333;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Bold shadow */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Bold shadow effect */
+    text-align: center;
   }
   
   .char-pro-img {
-    max-width: 250px;
+    max-width: 300px; /* Larger but scaled-down image */
     height: auto;
-    border-radius: 10px; /* Optional rounded corners for the image */
+    border-radius: 10px; /* Optional rounded corners */
   }
+  
   
   
   
