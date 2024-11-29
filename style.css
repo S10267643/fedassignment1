@@ -226,4 +226,14 @@ header {
 
 
 
-
+.suiprofileboard {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: 7vw 7vw 7vw 7vw 7vw ;
+    grid-template-areas:
+        "Area Area-2"
+        "Area-3 Area-4"
+        "Area-5 Area-6"
+        "Area-7 Area-8"
+        "Area-9 Area-10";
+}
