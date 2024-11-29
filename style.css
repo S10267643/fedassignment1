@@ -272,17 +272,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.char-pro-name h1 {
     font-size: 2.5rem;
     color: #333; /* Dark gray text for name */
     line-height: 1.5;
 }
 
+
+
 .char-pro-img{
     height: 10%;
     width: auto; 
-    margin-bottom: 10px; /* Space below image */
+    
     
 }
