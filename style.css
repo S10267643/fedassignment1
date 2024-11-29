@@ -223,11 +223,6 @@ header {
     text-align: justify; /* Align the text evenly */
 }
 
-
-
-
-
-
 /* Main Container */
 .charprofsuisei-container {
     background-color: #d6d5d5;
@@ -309,6 +304,46 @@ header {
   
   
   
+
+
+
+  /* Main container for the music space section */
+.music-space {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: flex-start; /* Align items at the top */
+    width: 50%; /* Takes up half of the screen width */
+    padding: 20px; /* Add some padding around */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  }
+  
+  /* Image styling */
+  .musspimg {
+    width: 50%; /* The image takes up half of the container's width */
+    height: auto; /* Maintain the image aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  /* Description styling */
+  .musspdesc {
+    width: 50%; /* Takes up the other half of the container */
+    padding-left: 20px; /* Space between image and text */
+  }
+  
+  /* Heading styling */
+  .musspdesc h3 {
+    font-size: 2rem; /* Make the heading bigger */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph styling */
+  .musspdesc p {
+    font-size: 1.1rem; /* Make the paragraph text a bit bigger */
+    color: #555; /* Lighter text color for readability */
+    line-height: 1.6; /* Improved line height for readability */
+  }
   
   
   
