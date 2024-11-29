@@ -233,7 +233,7 @@ header {
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
     align-items: flex-start; /* Align sections at the top */
-    height: 100vh; /* Full viewport height */
+    height: 90vh; /* Full viewport height */
     padding: 20px; /* Padding to give space from the edges */
     position: absolute;
     overflow: hidden; /* Prevent content from overflowing */
@@ -250,9 +250,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align text to the left */
-    padding: 15px;
+    padding: 10px;
     background-color: #f0f8ff; /* Light blue background */
-    border: 2px solid #007bff; /* Blue border */
+    border: 1px solid #007bff; /* Blue border */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
