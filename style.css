@@ -268,7 +268,8 @@ header {
 }
 
 .char-pro-name {
-    width: 35%; /* Allocate remaining space for the profile name */
+    font-family: Ubuntu, Helvetica, sans-serif;
+    width: 20%; /* Allocate remaining space for the profile name */
     text-align: center;
     display: flex;
     align-items: center;
@@ -281,3 +282,10 @@ header {
     line-height: 1.5;
 }
 
+.char-pro-img{
+    width: 20%; /* Allocate remaining space for the profile image */
+    margin-bottom: 10px; /* Space below image */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for focus */
+    border: 3px solid #007BFF; /* Optional: Blue border around the image */
+}
