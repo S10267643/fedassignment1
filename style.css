@@ -230,6 +230,7 @@ header {
 
 /* Main Container */
 .charprofsuisei-container {
+    background-color: #9c9c9c;
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
     align-items: flex-start; /* Align sections at the top */
