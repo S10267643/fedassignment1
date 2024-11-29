@@ -273,21 +273,20 @@ header {
   
   /* Center Section: Character Name */
   .char-pro-name {
-    line-height: 2vw;
-    letter-spacing: 2px;
+    line-height: 6vw;
+    letter-spacing: 3px;
     font-family: Ubuntu, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-70%, -100%); /* Center the name both vertically and horizontally */
-    font-size: 5rem; /* Larger font size */
+    transform: translate(-50%, -80%);
+    font-size: 5rem;
     font-weight: bold;
     color: #333;
-    
-    text-align:center;
-    z-index: 1; /* Ensure it stays above other sections but below the content */
+    text-align: left;
+    z-index: 1;
     width: 10%;
-  }
+}
   
   /* Right Section: Character Image */
   .char-pro-img {
