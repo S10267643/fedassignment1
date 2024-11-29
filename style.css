@@ -260,20 +260,22 @@ header {
   }
   
   .attribute {
-    font-size: 1.8rem; /* Larger font for attributes */
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 1.5rem; /* Larger font for attributes */
     font-weight: bold;
     color: #007bff; /* Blue for attribute names */
     margin-bottom: 10px;
   }
-  
+
   .value {
+    font-family: Ubuntu, Helvetica, sans-serif;
     font-size: 2rem; /* Larger font for values */
-    font-weight: 600;
     color: #333; /* Darker text for values */
   }
   
   /* Center Section: Character Name */
   .char-pro-name {
+    font-family: Ubuntu, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
