@@ -224,52 +224,58 @@ header {
 }
 
 
+
+
+
+
 .charprofsuisei-container {
     display: flex;
-    justify-content: space-between; /* Separates the table and profile sections */
-    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Separate profile boxes and name section */
     gap: 20px;
     margin: 20px;
     padding: 10px;
 }
 
 .suiprofileboard {
-    width: 50%; /* Allocates space for the table */
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of boxes */
+    gap: 15px; /* Space between boxes */
+    width: 60%; /* Allocate space for profile boxes */
+}
+
+.profile-box {
+    width: 150px; /* Fixed width for boxes */
+    padding: 15px;
     background-color: #f8f8f8; /* Light gray background */
-    padding: 20px;
+    border: 1px solid #ddd; /* Border around each box */
     border-radius: 8px;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.suiprofileboard table {
-    width: 100%;
-    border-collapse: collapse; /* Removes double borders */
-}
-
-.suiprofileboard th,
-.suiprofileboard td {
-    border: 1px solid #ddd; /* Adds borders to cells */
-    padding: 10px;
-    text-align: left;
-}
-
-.suiprofileboard th {
-    background-color: #007bff; /* Blue background for headers */
-    color: #fff; /* White text for headers */
+.attribute {
+    font-size: 1rem;
     font-weight: bold;
+    color: #007bff; /* Blue text for attributes */
+    margin-bottom: 8px; /* Space below attribute text */
 }
 
-.suiprofileboard td {
-    background-color: #f9f9f9; /* Slightly lighter background for readability */
+.value {
+    font-size: 1.2rem;
+    color: #333; /* Dark gray text for values */
 }
 
 .char-pro-name {
-    width: 40%; /* Allocates remaining space for the name section */
+    width: 35%; /* Allocate remaining space for the profile name */
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .char-pro-name h1 {
-    font-size: 2rem; /* Large font for the name and profile */
-    color: #333; /* Dark gray text */
-    line-height: 1.5; /* Adjust line spacing */
+    font-size: 2.5rem;
+    color: #333; /* Dark gray text for name */
+    line-height: 1.5;
 }
+
