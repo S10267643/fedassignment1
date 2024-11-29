@@ -270,14 +270,14 @@ header {
   
   /* Center Section: Character Name */
   .char-pro-name {
-    color: #1eb9f1;
+    
     line-height: 6vw;
     letter-spacing: 3px;
     font-family: Ubuntu, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-120%, -50%);
+    transform: translate(-120%, -30%);
     font-size: 5rem;
     font-weight: bold;
     color: #333;
@@ -290,7 +290,7 @@ header {
   .char-pro-img {
     display: flex;
     justify-content: flex-end;
-    width: 30%; /* Occupy 30% of the container */
+    width: 29%; /* Occupy 30% of the container */
   }
   
   .char-pro-img img {
