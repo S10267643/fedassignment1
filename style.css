@@ -273,7 +273,8 @@ header {
   
   /* Center Section: Character Name */
   .char-pro-name {
- 
+    line-height: 2vw;
+    letter-spacing: 2px;
     font-family: Ubuntu, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
