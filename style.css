@@ -232,11 +232,12 @@ header {
 .charprofsuisei-container {
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
-    align-items: center; /* Vertically align left, center, and right */
-    gap: 20px; /* Space between sections */
-    height: 80vh; /* Full viewport height */
-    padding: 0 30px; /* Horizontal padding */
+    align-items: flex-start; /* Align sections at the top */
+    gap: 30px; /* Space between sections */
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Padding to give space from the edges */
     position: relative;
+    overflow: hidden; /* Prevent content from overflowing */
   }
   
   /* Left Section: Profile Board */
@@ -282,7 +283,8 @@ header {
     color: #333;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); /* Shadow effect */
     text-align: center;
-    z-index: 2; /* Ensure it stays above other sections */
+    z-index: 1; /* Ensure it stays above other sections but below the content */
+    width: 100%;
   }
   
   /* Right Section: Character Image */
@@ -297,6 +299,15 @@ header {
     height: auto;
     border-radius: 10px; /* Optional rounded corners */
   }
+  
+  /* Additional styling to ensure the content is not overlapping */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
   
   
   
