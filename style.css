@@ -306,34 +306,40 @@ header {
 
 
 
-  .music-space {
+ /* Styles specifically for the music-space section */
+.music-space {
     display: flex;
     align-items: center; /* Align image and text vertically */
-    justify-content: space-between; /* Space evenly between elements */
-    width: 100%; /* Full container width */
+    justify-content: space-between; /* Space evenly between image and text */
+    width: 100%; /* Full width for the section */
+    margin: 20px 0; /* Add spacing above and below the section */
+    box-sizing: border-box; /* Ensure padding does not increase width */
   }
   
-  .musspimg {
-    width: 50%; /* Image takes half of the container width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure image fits without distortion */
+  .music-space .musspimg {
+    width: 50%; /* Image occupies half of the container width */
+    height: auto; /* Maintain image aspect ratio */
+    object-fit: cover; /* Ensure image fits nicely within its space */
   }
   
-  .musspdesc {
-    width: 50%; /* Text takes the other half of the container width */
-    padding: 20px; /* Add some padding for readability */
-    font-size: 16px; /* Adjust text size */
-    line-height: 1.5; /* Improve text readability */
+  .music-space .musspdesc {
+    width: 50%; /* Text occupies the other half */
+    padding: 20px; /* Add padding for spacing */
+    font-size: 16px; /* Adjust text size for readability */
+    line-height: 1.5; /* Set line spacing for better readability */
   }
   
-  .musspdesc h3 {
-    font-size: 24px; /* Larger heading size */
-    margin-bottom: 10px; /* Space below heading */
+  .music-space .musspdesc h3 {
+    font-size: 24px; /* Set font size for heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #333; /* Set a neutral heading color */
   }
   
-  .musspdesc p {
-    margin: 0; /* Remove default margins */
+  .music-space .musspdesc p {
+    margin: 0; /* Remove default paragraph margins */
+    color: #555; /* Slightly lighter text color */
   }
+  
   
   
   
