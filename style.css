@@ -498,7 +498,7 @@ header {
   }
   
   /* Style for the iframe (YouTube video) */
-  .yt-vid {
+.yt-vid {
     display: block;
     margin: 20px auto; /* Center the video */
     border: 3px solid #78a6ff; /* Add a border matching the title color */
@@ -506,7 +506,7 @@ header {
   }
   
   /* Style for images */
-  .info-page-img{
+.info-page-img{
     display: block;
     margin: 20px auto; /* Center the images */
     max-width: 100%; /* Ensure images do not overflow the section */
