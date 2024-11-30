@@ -347,12 +347,13 @@ header {
   }
   
   .music-space .musspdesc h3 {
-    font-size: 24px; /* Set font size for heading */
+    font-size: 40px; /* Set font size for heading */
     margin-bottom: 10px; /* Space below the heading */
     color: #333; /* Set a neutral heading color */
   }
   
   .music-space .musspdesc p {
+    font-size: 35px;
     margin: 0; /* Remove default paragraph margins */
     color: #555; /* Slightly lighter text color */
   }
