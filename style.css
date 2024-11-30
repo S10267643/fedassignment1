@@ -1,6 +1,4 @@
-.html{
-    overflow-y: auto;
-}
+
 
 
 
@@ -454,4 +452,7 @@ header {
   
   
 
-  
+  /* This class will be added when the section comes into view */
+.fade-in {
+    opacity: 1;
+}
