@@ -232,6 +232,7 @@ header {
 
 /* General Styles for charprofsuisei-container */
 .charprofsuisei-container {
+    background-color: #ccc;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr; /* Left, Center, Right layout */
     align-items: center;
