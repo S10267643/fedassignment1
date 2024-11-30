@@ -54,42 +54,39 @@ header {
     height: 100%; /* Make the image span the full height */
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
-/* Short Web Description Section */
+
 .shortwebdesc-container {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center content vertically */
-    
-    
-}
-/* Suiwelcome Image Container */
-.suiwelcome-img-container {
-    
-    position: relative; /* Allow positioning of text over image */
-    width: 100%; /* Make the container full width */
-    height: auto; /* Ensure it scales properly */
-}
-/* Suiwelcome Image */
-.suiwelcome-img {
-    width: 100%; /* Make the image span the full width */
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust based on your layout */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .suiwelcome-img-container {
+    position: relative;
+  }
+  
+  .suiwelcome-img {
+    width: 100%; /* Ensure the image takes the full width of the container */
     height: auto; /* Maintain the aspect ratio */
-}
-/* Text on top of the Suiwelcome Image */
-.shortwebdesc {
-    position: absolute; /* Position the text over the image */
-    
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Perfect centering */
-    color: rgb(0, 0, 0); 
-    text-align: center;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
-    font-family: 'Mirai MEDIUM', sans-serif; /* Set font */
-    font-size: 1.5vw; /* Make the text size responsive */
-    line-height: 2.25vw; /* Set line height */
+  }
+  
+  .shortwebdesc {
+    position: absolute;
+    top: 50%; /* Center the text vertically */
+    left: 50%; /* Center the text horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Adjust for readability */
+    text-align: center; /* Center-align the text */
     padding: 20px; /* Add padding around the text */
-    width: 80%; /* Limit the text block width */
-    border-radius: 10px; /* Optional: rounded corners for text block */
-}
+    border-radius: 10px; /* Optional: Add rounded corners to the text box */
+    width: 80%; /* Optional: Adjust text box width */
+  }
+  
+
+
 /* Container for horizontal alignment */
 .sui-intro-container {
     background-color: #3fd8fe; /* Blue background color */
