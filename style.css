@@ -394,7 +394,6 @@ header {
     text-decoration: none;
     position: relative;
     width: 800px; /* Increased container width */
-    height: 250px; /* Increased container height to fit larger images and text */
     overflow: hidden;
     color: #000;
     border-radius: 20px; /* Smooth edges for a polished look */
