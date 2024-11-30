@@ -55,6 +55,7 @@ header {
     object-fit: cover; /* Ensure the image covers the section without distortion */
 }
 
+
 .shortwebdesc-container {
     position: relative;
     width: 100%;
@@ -76,8 +77,8 @@ header {
     top: 50%; /* Center the text vertically */
     left: 50%; /* Center the text horizontally */
     transform: translate(-50%, -50%); /* Adjust for perfect centering */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    color: white; /* Text color */
+    
+    color: rgb(0, 0, 0); /* Text color */
     font-size: 1.2rem; /* Adjust for readability */
     text-align: center; /* Center-align the text */
     padding: 20px; /* Add padding around the text */
