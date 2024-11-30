@@ -468,7 +468,7 @@ header {
   }
   
   /* Style for each section */
-  section {
+.info-page {
     background-color: #0a0e1f; /* Very dark blue background for the sections */
     padding: 20px; /* Add spacing inside the sections */
     margin: 20px auto; /* Add spacing between sections */
@@ -478,7 +478,7 @@ header {
   }
   
   /* Style for titles */
-  section title {
+.info-page-title {
     display: block;
     font-size: 1.8em;
     font-weight: bold;
@@ -487,7 +487,7 @@ header {
   }
   
   /* Paragraph text style */
-  section p {
+.info-page-p {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -502,7 +502,7 @@ header {
   }
   
   /* Style for images */
-  section img {
+  .info-page-p{
     display: block;
     margin: 20px auto; /* Center the images */
     max-width: 100%; /* Ensure images do not overflow the section */
