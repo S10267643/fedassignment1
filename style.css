@@ -230,87 +230,92 @@ header {
 
 
 
-/* Main Container */
+/* General Styles for charprofsuisei-container */
 .charprofsuisei-container {
-    
-    display: flex;
-    justify-content: space-between; /* Position left and right sections closer */
-    align-items: center; /* Align sections at the top */
-    padding: 20px; /* Padding to give space from the edges */
-    position: absolute;
-    
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; /* Left, Center, Right layout */
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin: 40px 0;
+    gap: 20px; /* Space between sections */
+    padding: 20px;
+    box-sizing: border-box;
   }
   
   /* Left Section: Profile Board */
   .suiprofileboard {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for attributes */
-    
+    grid-template-columns: 1fr 1fr; /* Arrange in 2 columns */
+    gap: 15px; /* Space between boxes */
+    width: 100%;
+    padding: 10px;
   }
   
   .profile-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Align text to the left */
-    border: 1px solid #007bff; /* Blue border */
+    background-color: #f5f5f5; /* Light background color for boxes */
+    border: 2px solid #ccc; /* Border around boxes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
   
-  .attribute {
-    font-family: Ubuntu, Helvetica, sans-serif;
-    font-size: 1.3rem; /* Larger font for attributes */
+  .profile-box .attribute {
+    font-size: 16px;
     font-weight: bold;
-    color: #007bff; /* Blue for attribute names */
-    margin-bottom: 10px;
+    color: #0077cc; /* Blue color for attributes */
+    margin-bottom: 5px;
   }
-
-  .value {
-    font-family: Ubuntu, Helvetica, sans-serif;
-    font-size: 2rem; /* Larger font for values */
+  
+  .profile-box .value {
+    font-size: 18px;
     color: #333; /* Darker text for values */
   }
   
   /* Center Section: Character Name */
   .char-pro-name {
-    
-    line-height: 6vw;
-    font-family: Ubuntu, Helvetica, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-140%, -30%);
-    font-size: 5rem;
+    font-size: 32px;
     font-weight: bold;
+    text-align: center;
     color: #333;
-    text-align: left;
-    z-index: 1;
-    width: 10%;
-}
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for name text */
+    margin: 0;
+  }
   
   /* Right Section: Character Image */
   .char-pro-img {
     display: flex;
-    justify-content: flex-end;
-    width: 27%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   
   .char-pro-img img {
-    max-width: 100%; /* Scale image properly */
+    max-width: 100%; /* Ensure image scales properly */
     height: auto;
-    border-radius: 10px; /* Optional rounded corners */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
   }
   
-  
-  
-  
-  .charprofsuisei-container , .music-space {
-    display: block;
-    width: 100%;
-    clear: both; /* Ensure no floating elements affect layout */
-    margin-bottom: 40px; /* Add spacing below each section */
+  /* Prevent Overlap with Other Sections */
+  .charprofsuisei-container + * {
+    margin-top: 40px; /* Add spacing between this section and the next */
   }
+  
+  /* Ensure Isolation of Styles */
+  .charprofsuisei-container,
+  .charprofsuisei-container * {
+    box-sizing: border-box;
+  }
+  
 
 
 
+
+
+
+
+  
 /* Styles specifically for the music-space section */
 .music-space {
     display: flex;
