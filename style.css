@@ -237,10 +237,7 @@ header {
     grid-template-columns: 2fr 1fr 2fr; /* Left, Center, Right layout */
     align-items: center;
     justify-items: center;
-    width: 110%;
-    
-    gap: 20px; /* Space between sections */
-   
+    width: 100%;
   }
   
   /* Left Section: Profile Board */
@@ -254,8 +251,8 @@ header {
   
   .profile-box {
     background-color: #f5f5f5; /* Light background color for boxes */
-    border: 2px solid #ccc; /* Border around boxes */
-    padding: 15px;
+    border: 1px solid #ccc; /* Border around boxes */
+   
     text-align: center; /* Center-align text */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
