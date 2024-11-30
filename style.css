@@ -232,7 +232,7 @@ header {
 
 /* Main Container */
 .charprofsuisei-container {
-    background-color: #d6d5d5;
+    
     display: flex;
     justify-content: space-between; /* Position left and right sections closer */
     align-items: center; /* Align sections at the top */
