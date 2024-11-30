@@ -325,7 +325,7 @@ header {
     align-items: center; /* Align image and text vertically */
     justify-content: space-between; /* Space between image and text */
     width: 100%; /* Full width for the section */
-    margin: 20px auto; /* Add vertical spacing above and below */
+    margin: 0; /* Add vertical spacing above and below */
     padding: 20px; /* Add padding inside the section */
     box-sizing: border-box; /* Ensure padding does not increase width */
     position: relative; /* Ensure this section stacks properly with others */
