@@ -322,7 +322,7 @@ header {
     box-sizing: border-box; /* Ensure padding does not increase width */
     position: relative; /* Ensure this section stacks properly with others */
     z-index: 1; /* Prevent this section from overlapping higher layers */
-    background-color: #f9f9f9; /* Optional: Add a background to highlight it */
+    background-color: hsl(221, 100%, 77%); /* Optional: Add a background to highlight it */
     border: 1px solid #ddd; /* Optional: Add a border for clarity */
   }
   
