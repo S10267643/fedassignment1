@@ -234,7 +234,7 @@ header {
 .charprofsuisei-container {
     background-color: #ccc;
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr; /* Left, Center, Right layout */
+    grid-template-columns: 3fr 1fr 1fr; /* Left, Center, Right layout */
     align-items: center;
     justify-items: center;
     width: 100%;
@@ -261,14 +261,14 @@ header {
     font-size: 30px;
     font-weight: bold;
     color: #0077cc; 
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     font-family: Ubuntu, Helvetica, sans-serif;
   }
   
   .profile-box .value {
     font-size: 35px;
     color: #333;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     font-family: Ubuntu, Helvetica, sans-serif;
   }
   
