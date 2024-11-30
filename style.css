@@ -458,6 +458,9 @@ header {
     opacity: 1;
 }
 
+
+
+
 /* General styles for the body */
 .more-info {
     font-family: Arial, sans-serif;
@@ -467,11 +470,12 @@ header {
     color: white; /* White text for readability */
   }
   
+  
   /* Style for each section */
 .info-page {
     background-color: #0a0e1f; /* Very dark blue background for the sections */
     padding: 20px; /* Add spacing inside the sections */
-    margin: 20px auto; /* Add spacing between sections */
+    margin: 40px auto; /* Add spacing between sections */
     border-radius: 10px; /* Round the edges of the sections */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add subtle shadow */
     max-width: 800px; /* Limit section width for better readability */
@@ -502,7 +506,7 @@ header {
   }
   
   /* Style for images */
-  .info-page-p{
+  .info-page-img{
     display: block;
     margin: 20px auto; /* Center the images */
     max-width: 100%; /* Ensure images do not overflow the section */
