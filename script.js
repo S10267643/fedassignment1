@@ -21,6 +21,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   });
 }, options);
 
+
 // Observe each section
 sections.forEach(section => {
   observer.observe(section);
