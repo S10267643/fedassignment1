@@ -293,12 +293,6 @@ header {
     border-radius: 10px; /* Optional rounded corners */
   }
   
-  /* Additional styling to ensure the content is not overlapping */
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
   
   
   
