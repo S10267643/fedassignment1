@@ -290,7 +290,7 @@ header {
   .char-pro-img {
     display: flex;
     justify-content: flex-end;
-    width: 27%; /* Occupy 30% of the container */
+    width: 27%;
   }
   
   .char-pro-img img {
@@ -302,7 +302,12 @@ header {
   
   
   
-  
+  .charprofsuisei-container , .music-space {
+    display: block;
+    width: 100%;
+    clear: both; /* Ensure no floating elements affect layout */
+    margin-bottom: 40px; /* Add spacing below each section */
+  }
 
 
 
