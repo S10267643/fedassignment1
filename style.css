@@ -1,8 +1,4 @@
 
-.html{
-    opacity: 0;
-}
-
 
 
 /* Header Container */
@@ -453,7 +449,10 @@ header {
   }
   
   
-
+.fade-section {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
   /* This class will be added when the section comes into view */
 .fade-in {
     opacity: 1;
