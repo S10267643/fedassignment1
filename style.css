@@ -306,14 +306,19 @@ header {
 
 
 
- /* Styles specifically for the music-space section */
+/* Styles specifically for the music-space section */
 .music-space {
     display: flex;
     align-items: center; /* Align image and text vertically */
-    justify-content: space-between; /* Space evenly between image and text */
+    justify-content: space-between; /* Space between image and text */
     width: 100%; /* Full width for the section */
-    margin: 20px 0; /* Add spacing above and below the section */
+    margin: 20px auto; /* Add vertical spacing above and below */
+    padding: 20px; /* Add padding inside the section */
     box-sizing: border-box; /* Ensure padding does not increase width */
+    position: relative; /* Ensure this section stacks properly with others */
+    z-index: 1; /* Prevent this section from overlapping higher layers */
+    background-color: #f9f9f9; /* Optional: Add a background to highlight it */
+    border: 1px solid #ddd; /* Optional: Add a border for clarity */
   }
   
   .music-space .musspimg {
@@ -338,6 +343,11 @@ header {
   .music-space .musspdesc p {
     margin: 0; /* Remove default paragraph margins */
     color: #555; /* Slightly lighter text color */
+  }
+  
+  /* Ensure the section below doesn't overlap */
+  .music-space + * {
+    margin-top: 40px; /* Add space below the music-space section */
   }
   
   
