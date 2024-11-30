@@ -248,6 +248,7 @@ header {
     grid-template-columns: 1fr 1fr; /* Arrange in 2 columns */
     width: 100%;
     padding: 10px;
+    height: 100%;
   }
   
   .profile-box {
@@ -261,20 +262,21 @@ header {
   .profile-box .attribute {
     font-size: 16px;
     font-weight: bold;
-    color: #0077cc; /* Blue color for attributes */
-    margin-bottom: 5px;
+    color: #0077cc; 
+    margin-bottom: 50px;
   }
   
   .profile-box .value {
     font-size: 18px;
-    color: #333; /* Darker text for values */
+    color: #333;
+    margin-bottom: 50px;
   }
   
   /* Center Section: Character Name */
   .char-pro-name {
     font-size: 5rem;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #333;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for name text */
     margin: 0;
