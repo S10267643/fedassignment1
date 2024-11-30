@@ -506,7 +506,7 @@ header {
   }
   
   /* Style for images */
-.info-page-img{
+.info-pg-img{
     display: block;
     margin: 20px auto; /* Center the images */
     max-width: 100%; /* Ensure images do not overflow the section */
