@@ -306,42 +306,33 @@ header {
 
 
 
-  /* Main container for the music space section */
-.music-space {
+  .music-space {
     display: flex;
-    justify-content: flex-start; /* Align content to the left */
-    align-items: flex-start; /* Align items at the top */
-    width: 50%; /* Takes up half of the screen width */
-    padding: 20px; /* Add some padding around */
-    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    align-items: center; /* Align image and text vertically */
+    justify-content: space-between; /* Space evenly between elements */
+    width: 100%; /* Full container width */
   }
   
-  /* Image styling */
   .musspimg {
-    width: 50%; /* The image takes up half of the container's width */
-    height: auto; /* Maintain the image aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    width: 50%; /* Image takes half of the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure image fits without distortion */
   }
   
-  /* Description styling */
   .musspdesc {
-    width: 50%; /* Takes up the other half of the container */
-    padding-left: 20px; /* Space between image and text */
+    width: 50%; /* Text takes the other half of the container width */
+    padding: 20px; /* Add some padding for readability */
+    font-size: 16px; /* Adjust text size */
+    line-height: 1.5; /* Improve text readability */
   }
   
-  /* Heading styling */
   .musspdesc h3 {
-    font-size: 2rem; /* Make the heading bigger */
-    color: #333; /* Dark text color */
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 24px; /* Larger heading size */
+    margin-bottom: 10px; /* Space below heading */
   }
   
-  /* Paragraph styling */
   .musspdesc p {
-    font-size: 1.1rem; /* Make the paragraph text a bit bigger */
-    color: #555; /* Lighter text color for readability */
-    line-height: 1.6; /* Improved line height for readability */
+    margin: 0; /* Remove default margins */
   }
   
   
