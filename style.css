@@ -457,3 +457,57 @@ header {
 .fade-in {
     opacity: 1;
 }
+
+/* General styles for the body */
+.more-info {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #10142b; /* Dark blue background for the entire page */
+    color: white; /* White text for readability */
+  }
+  
+  /* Style for each section */
+  section {
+    background-color: #0a0e1f; /* Very dark blue background for the sections */
+    padding: 20px; /* Add spacing inside the sections */
+    margin: 20px auto; /* Add spacing between sections */
+    border-radius: 10px; /* Round the edges of the sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add subtle shadow */
+    max-width: 800px; /* Limit section width for better readability */
+  }
+  
+  /* Style for titles */
+  section title {
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #78a6ff; /* Soft blue for the section titles */
+  }
+  
+  /* Paragraph text style */
+  section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the iframe (YouTube video) */
+  .yt-vid {
+    display: block;
+    margin: 20px auto; /* Center the video */
+    border: 3px solid #78a6ff; /* Add a border matching the title color */
+    border-radius: 8px; /* Rounded corners for the video */
+  }
+  
+  /* Style for images */
+  section img {
+    display: block;
+    margin: 20px auto; /* Center the images */
+    max-width: 100%; /* Ensure images do not overflow the section */
+    height: auto; /* Maintain image aspect ratio */
+    border: 3px solid #78a6ff; /* Add a matching border to images */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
