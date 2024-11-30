@@ -1,3 +1,9 @@
+.head{
+    overflow-y: auto;
+}
+
+
+
 
 /* Header Container */
 header {
